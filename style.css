@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #797878;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #111111;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    background-color: #242323;
+    border-radius: 8px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.content-section {
+    display: none;
+    padding: 2rem;
+    width: 1000px;
+    margin-left: 23%;
+    margin-top: 4%;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    margin-bottom: 1rem;
+}
+
+.profile-details p,
+h3 {
+    margin: 0.5rem 0;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+#contact {
+    margin: 0.5rem 0;
+    color: #acacac;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.repo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.repo-card {
+    width: 220px;
+    background-color: rgb(172, 170, 170);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.2s;
+}
+
+.repo-card:hover {
+    transform: scale(1.05);
+}
+
+.repo-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.repo-card h3,
+a {
+    font-size: 1.2rem;
+    color: #0a0a0a;
+    margin: 0.5rem 0;
+    text-decoration: none;
+}
+
+.repo-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.content-section button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 2rem;
+}
+
+.content-section button:hover {
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    pointer-events: ;
+}
+
+#contact {
+    margin-left: 20%;
+}
